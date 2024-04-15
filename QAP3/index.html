@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+    <!-- Skeleton CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form class="user-form">
+            <div class="row">
+                <div class="six columns">
+                    <label for="name">Name</label>
+                    <input class="u-full-width" type="text" id="name">
+                </div>
+                <div class="six columns">
+                    <label for="age">Age</label>
+                    <input class="u-full-width" type="number" id="age">
+                </div>
+            </div>
+            <div class="row">
+                <div class="six columns">
+                    <button class="button-primary" onclick="makeObj(event)">Add User</button>
+                </div>
+                <div class="six columns">
+                    <button class="button-primary" onclick="displayObj(event)">Display Users</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    <button class="button-primary" onclick="showJSON(event)">Show JSON</button>
+                </div>
+            </div>
+        </form>
+        <div id="output"></div>
+        <div id="json-output"></div>
+        <div id="todos-output"></div>
+    </div>
+
+    <script src="scripts/practice.js"></script>
+</body>
+</html>
+
+

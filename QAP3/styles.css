@@ -1,0 +1,80 @@
+/* The body style applies to the entire document. It sets the background color to a dark blue, the text color to white, and the font to Arial or a sans-serif fallback. */
+body {
+    background-color: #3739a6;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* The .container class is used for elements that need a navy background, white text, padding of 20px, and slightly rounded corners. */
+.container {
+    background-color: #01627d;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* The .user-form class is used for form elements. It sets the background color to a dark yellow, adds padding, and rounds the corners. */
+.user-form {
+    background-color: #bd8b04;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* The .user-form label style applies to labels within elements with the .user-form class. It makes the labels block elements and adds a bottom margin. */
+.user-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* The .user-form input style applies to input fields within elements with the .user-form class. It sets the width to 100%, adds padding, and a bottom margin. */
+.user-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* The .button-primary class is used for primary action buttons. It sets the background color to orange, the text color to white, removes the border, adds padding, rounds the corners, and changes the cursor to a pointer. */
+.button-primary {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* The .button-primary:hover style changes the background color of primary buttons when they are hovered over. */
+.button-primary:hover {
+    background-color: darkorange;
+}
+
+/* The #output style applies to the element with the id of "output". It sets the background color to a dark yellow, adds padding, a top margin, and rounds the corners. */
+#output {
+    background-color: #bd8b04;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* The #json-output style applies to the element with the id of "json-output". It sets the background color to black, the text color to white, adds padding, a top margin, and rounds the corners. */
+#json-output {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* The #todos-output style applies to the element with the id of "todos-output". It sets the background color to a dark yellow, the text color to white, adds padding, a top margin, and rounds the corners. */
+#todos-output {
+    background-color: #bd8b04;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* The #todos-output button style applies to buttons within the element with the id of "todos-output". It adds a top margin. */
+#todos-output button {
+    margin-top: 20px;
+}
